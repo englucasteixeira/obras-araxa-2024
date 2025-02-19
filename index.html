@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Obras Araxá 2024</title>
+    <meta charset="utf-8">
+    <style>
+        /* Faz a página ocupar toda a tela */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Remove rolagem */
+        }
+
+        /* Faz o mapa ocupar toda a tela */
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .info-window {
+            padding: 10px;
+            max-width: 300px;
+        }
+
+        .info-window h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .info-window p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: { lat: -19.5901, lng: -46.9439 }, // Araxá
+            });
+
+            const infoWindow = new google.maps.InfoWindow();
+
+            fetch('map_markers.json')
+                .then(response => response.json())
+                .then(data => {
+                    data.markers.forEach(markerData => {
+                        const marker = new google.maps.Marker({
+                            position: markerData.position,
+                            map: map,
+                        });
+
+                        const content = `
+                            <div class="info-window">
+                                <h3>Informações do Projeto</h3>
+                                <p><span class="info-label">Responsável Projeto:</span> ${markerData.info.responsavel_projeto}</p>
+                                <p><span class="info-label">Responsável Execução:</span> ${markerData.info.responsavel_execucao}</p>
+                                <p><span class="info-label">Proprietário:</span> ${markerData.info.proprietario}</p>
+                                <p><span class="info-label">Área:</span> ${markerData.info.area}</p>
+                            </div>
+                        `;
+
+                        marker.addListener('click', () => {
+                            infoWindow.setContent(content);
+                            infoWindow.open(map, marker);
+                        });
+                    });
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar os marcadores:', error);
+                });
+        }
+    </script>
+
+    <!-- Substitua YOUR_API_KEY pela sua chave de API do Google Maps -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtafyfvb4cGU58l-XOxYHhcdHLhPJx7DI&callback=initMap">
+    </script>
+</body>
+</html>
+
+
