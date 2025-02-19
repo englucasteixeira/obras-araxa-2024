@@ -12,7 +12,7 @@ const data = {
         "area": 441.75,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -82,7 +82,7 @@ const data = {
         "area": 329.55,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -96,7 +96,7 @@ const data = {
         "area": 876.02,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -124,7 +124,7 @@ const data = {
         "area": 251.6,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -152,7 +152,7 @@ const data = {
         "area": 4902.45,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -264,7 +264,7 @@ const data = {
         "area": 215.22,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -418,7 +418,7 @@ const data = {
         "area": 337.83,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -432,7 +432,7 @@ const data = {
         "area": 299.77,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -670,7 +670,7 @@ const data = {
         "area": 572.48,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -684,7 +684,7 @@ const data = {
         "area": 244.6,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -698,7 +698,7 @@ const data = {
         "area": 1200.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -712,7 +712,7 @@ const data = {
         "area": 920.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -824,7 +824,7 @@ const data = {
         "area": 249.6,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1020,7 +1020,7 @@ const data = {
         "area": 678.6,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1090,7 +1090,7 @@ const data = {
         "area": 247.41,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1300,7 +1300,7 @@ const data = {
         "area": 1850.52,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -1356,7 +1356,7 @@ const data = {
         "area": 466.8,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1412,7 +1412,7 @@ const data = {
         "area": 242.97,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1440,7 +1440,7 @@ const data = {
         "area": 875.3,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -1510,7 +1510,7 @@ const data = {
         "area": 892.57,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -1524,7 +1524,7 @@ const data = {
         "area": 892.57,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -1622,7 +1622,7 @@ const data = {
         "area": 215.45,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1846,7 +1846,7 @@ const data = {
         "area": 553.7,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1902,7 +1902,7 @@ const data = {
         "area": 711.5,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -1972,7 +1972,7 @@ const data = {
         "area": 633.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2196,7 +2196,7 @@ const data = {
         "area": 529.71,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2392,7 +2392,7 @@ const data = {
         "area": 305.55,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2504,7 +2504,7 @@ const data = {
         "area": 362.08,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2686,7 +2686,7 @@ const data = {
         "area": 367.65,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2714,7 +2714,7 @@ const data = {
         "area": 541.14,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2728,7 +2728,7 @@ const data = {
         "area": 232.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2882,7 +2882,7 @@ const data = {
         "area": 249.6,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -2896,7 +2896,7 @@ const data = {
         "area": 2435.37,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -3050,7 +3050,7 @@ const data = {
         "area": 241.9,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3162,7 +3162,7 @@ const data = {
         "area": 298.33,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3176,7 +3176,7 @@ const data = {
         "area": 515.4,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3456,7 +3456,7 @@ const data = {
         "area": 249.7,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3526,7 +3526,7 @@ const data = {
         "area": 221.18,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3582,7 +3582,7 @@ const data = {
         "area": 360.4,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3638,7 +3638,7 @@ const data = {
         "area": 215.78,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3652,7 +3652,7 @@ const data = {
         "area": 218.18,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3666,7 +3666,7 @@ const data = {
         "area": 539.28,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -3820,7 +3820,7 @@ const data = {
         "area": 455.37,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4114,7 +4114,7 @@ const data = {
         "area": 252.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4226,7 +4226,7 @@ const data = {
         "area": 228.38,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4408,7 +4408,7 @@ const data = {
         "area": 749.5,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4590,7 +4590,7 @@ const data = {
         "area": 220.05,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4604,7 +4604,7 @@ const data = {
         "area": 252.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4646,7 +4646,7 @@ const data = {
         "area": 1499.06,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -4772,7 +4772,7 @@ const data = {
         "area": 250.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -4968,7 +4968,7 @@ const data = {
         "area": 3967.46,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -4982,7 +4982,7 @@ const data = {
         "area": 351.22,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -5052,7 +5052,7 @@ const data = {
         "area": 553.55,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -5192,7 +5192,7 @@ const data = {
         "area": 1119.5,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -5570,7 +5570,7 @@ const data = {
         "area": 495.13,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -5696,7 +5696,7 @@ const data = {
         "area": 252.4,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -5878,7 +5878,7 @@ const data = {
         "area": 252.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -5906,7 +5906,7 @@ const data = {
         "area": 338.1,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -6186,7 +6186,7 @@ const data = {
         "area": 223.2,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -6242,7 +6242,7 @@ const data = {
         "area": 283.92,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -6508,7 +6508,7 @@ const data = {
         "area": 352.86,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -6956,7 +6956,7 @@ const data = {
         "area": 223.91,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7124,7 +7124,7 @@ const data = {
         "area": 252.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7152,7 +7152,7 @@ const data = {
         "area": 298.98,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7586,7 +7586,7 @@ const data = {
         "area": 495.13,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7656,7 +7656,7 @@ const data = {
         "area": 218.18,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7684,7 +7684,7 @@ const data = {
         "area": 3862.63,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -7796,7 +7796,7 @@ const data = {
         "area": 559.93,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -7894,7 +7894,7 @@ const data = {
         "area": 693.18,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -8510,7 +8510,7 @@ const data = {
         "area": 360.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -8524,7 +8524,7 @@ const data = {
         "area": 360.0,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -8580,7 +8580,7 @@ const data = {
         "area": 499.2,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -9574,7 +9574,7 @@ const data = {
         "area": 319.5,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -9952,7 +9952,7 @@ const data = {
         "area": 265.44,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     },
     {
       "position": {
@@ -10008,7 +10008,7 @@ const data = {
         "area": 1069.15,
         "destinacao": "Construção Comercial"
       },
-      "color": "#00008B"
+      "color": "#004080"
     },
     {
       "position": {
@@ -13130,7 +13130,7 @@ const data = {
         "area": 250.05,
         "destinacao": "Construção Comercial"
       },
-      "color": "#0000CD"
+      "color": "#00BFFF"
     }
   ]
 }

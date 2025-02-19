@@ -10,20 +10,21 @@ async function initMap() {
         
         // Inicializa o mapa
         map = new Map(document.getElementById("map"), {
-            zoom: 12,
+            zoom: 14,
             center: data.markers[0].position,
-            mapId: "DEMO_MAP_ID",
+            mapId: "OBRAS_ARAXA_ID",
         });
 
         // Cria os marcadores
         data.markers.forEach((markerData) => {
-            // Cria um pin personalizado com a cor especificada
+            // Cria um pin personalizado com a cor especificada e escala reduzida
             const pin = new PinElement({
                 background: markerData.color,
                 borderColor: "#000000",
                 glyphColor: "#FFFFFF",
+                scale: 0.77,  // Adiciona scale para diminuir o tamanho (valor entre 0 e 1)
             });
-
+            
             // Cria o AdvancedMarkerElement
             const marker = new AdvancedMarkerElement({
                 map: map,
@@ -31,7 +32,7 @@ async function initMap() {
                 title: markerData.info.proprietario,
                 content: pin.element,
             });
-
+            
             // Cria a janela de informações
             const infoWindow = new google.maps.InfoWindow({
                 content: `
@@ -44,7 +45,7 @@ async function initMap() {
                     </div>
                 `,
             });
-
+            
             // Adiciona o evento de clique
             marker.addListener("click", () => {
                 // Fecha todas as outras janelas de informação
@@ -56,7 +57,7 @@ async function initMap() {
                     map: map,
                 });
             });
-
+            
             // Armazena as referências
             markers.push(marker);
             infoWindows.push(infoWindow);
