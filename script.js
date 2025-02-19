@@ -36,7 +36,8 @@ async function initMap() {
             // Cria a janela de informações
             const infoWindow = new google.maps.InfoWindow({
                 content: `
-                    <div style="padding: 10px;">
+                    <div >
+                        <h3>Informações do Projeto</h3>
                         <p><strong>Responsável pelo Projeto:</strong> ${markerData.info.responsavel_projeto}</p>
                         <p><strong>Responsável pela Execução:</strong> ${markerData.info.responsavel_execucao}</p>
                         <p><strong>Proprietário:</strong> ${markerData.info.proprietario}</p>
