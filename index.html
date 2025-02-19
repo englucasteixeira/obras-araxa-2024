@@ -69,11 +69,11 @@
     <div id="map"></div>
     <div class="legend">
         <div><span style="background-color: #90EE90;"></span>Construção Residencial Unifamiliar</div>
-        <div><span style="background-color: #32CD32;"></span>Construção Residencial Multifamiliar (menor que 750 m²)</div>
-        <div><span style="background-color: #006400;"></span>Construção Residencial Multifamiliar (maior que 750 m²)</div>
-        <div><span style="background-color: #ADD8E6;"></span>Construção Comercial (menor que 200 m²)</div>
-        <div><span style="background-color: #0000CD;"></span>Construção Comercial (entre 200 e 750 m²)</div>
-        <div><span style="background-color: #00008B;"></span>Construção Comercial (maior que 750 m²)</div>
+        <div><span style="background-color: #32CD32;"></span>Construção Residencial Multifamiliar (Pequena)</div>
+        <div><span style="background-color: #006400;"></span>Construção Residencial Multifamiliar (Grande)</div>
+        <div><span style="background-color: #ADD8E6;"></span>Construção Comercial (Pequena)</div>
+        <div><span style="background-color: #0000CD;"></span>Construção Comercial (Média)</div>
+        <div><span style="background-color: #00008B;"></span>Construção Comercial (Grande)</div>
         <div><span style="background-color: #808080;"></span>Outras Destinações</div>
     </div>
 
@@ -93,8 +93,12 @@
                     position: markerData.position,
                     map: map,
                     icon: {
-                        url: `https://maps.google.com/mapfiles/ms/icons/${markerData.color}-dot.png`, // Ícone de alfinete colorido
-                        scaledSize: new google.maps.Size(40, 40), // Tamanho do ícone
+                        path: google.maps.SymbolPath.CIRCLE, // Usa um círculo como ícone
+                        fillColor: markerData.color, // Cor do marcador
+                        fillOpacity: 1,
+                        strokeColor: '#000',
+                        strokeWeight: 1,
+                        scale: 10 // Tamanho do marcador
                     }
                 });
 
@@ -122,6 +126,7 @@
     </script>
 </body>
 </html>
+
 
 
 
